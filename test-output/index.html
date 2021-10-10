@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite" class="navigator-link">
+              <span class="suite-name border-passed">Suite</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite" class="navigator-link ">
+                    <span>C:\Users\UnKnown\eclipse-workspace\Alaa\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">10 methods,   10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite" class="hide-methods passed suite-Suite"> (hide)</a> <!-- hide-methods passed suite-Suite -->
+                      <a href="#" panel-name="suite-Suite" class="show-methods passed suite-Suite"> (show)</a> <!-- show-methods passed suite-Suite -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Reg.Reg" class="method navigator-link" hash-for-method="Create_Acount_NLet_Nnum(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException)">Create_Acount_NLet_Nnum(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Reg.Reg" class="method navigator-link" hash-for-method="Create_Acount_NonLet_Nonnum(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException)">Create_Acount_NonLet_Nonnum(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Reg.Reg" class="method navigator-link" hash-for-method="Ex_Acount(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException)">Ex_Acount(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_eu_ep(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException)">Log_eu_ep(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_forget(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException)">Log_forget(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_ivu_ivp(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException)">Log_ivu_ivp(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_ivu_vp(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException)">Log_ivu_vp(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_nonu_nonp(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException)">Log_nonu_nonp(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_vu_ivp(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException)">Log_vu_ivp(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite" title="Login.Login" class="method navigator-link" hash-for-method="Log_vu_vp(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException)">Log_vu_vp(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite" class="panel Suite">
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Reg.Reg</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Acount_NLet_Nnum(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Create_Acount_NLet_Nnum(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Create_Acount_NLet_Nnum</span>
+                  <span class="parameters">(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Create_Acount_NonLet_Nonnum(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Create_Acount_NonLet_Nonnum(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Create_Acount_NonLet_Nonnum</span>
+                  <span class="parameters">(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Ex_Acount(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Ex_Acount(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Ex_Acount</span>
+                  <span class="parameters">(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+          <div class="suite-Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">Login.Login</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_eu_ep(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_eu_ep(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_eu_ep</span>
+                  <span class="parameters">(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_forget(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_forget(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_forget</span>
+                  <span class="parameters">(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_ivu_ivp(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_ivu_ivp(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_ivu_ivp</span>
+                  <span class="parameters">(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_ivu_vp(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_ivu_vp(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_ivu_vp</span>
+                  <span class="parameters">(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_nonu_nonp(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_nonu_nonp(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_nonu_nonp</span>
+                  <span class="parameters">(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_vu_ivp(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_vu_ivp(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_vu_ivp</span>
+                  <span class="parameters">(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="Log_vu_vp(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException)">
+                  </a> <!-- Log_vu_vp(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException) -->
+                  <span class="method-name">Log_vu_vp</span>
+                  <span class="parameters">(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite-class-passed -->
+        </div> <!-- panel Suite -->
+        <div panel-name="test-xml-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\UnKnown\eclipse-workspace\Alaa\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;Reg.Reg&quot;/&gt;
+      &lt;class name=&quot;Login.Login&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- Suite --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (2 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite');
+function tableData_Suite() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(10);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'Create_Acount_NonLet_Nonnum')
+data.setCell(0, 2, 'Reg.Reg')
+data.setCell(0, 3, 8888);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'Create_Acount_NLet_Nnum')
+data.setCell(1, 2, 'Reg.Reg')
+data.setCell(1, 3, 7225);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'Log_nonu_nonp')
+data.setCell(2, 2, 'Login.Login')
+data.setCell(2, 3, 3744);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'Log_ivu_vp')
+data.setCell(3, 2, 'Login.Login')
+data.setCell(3, 3, 3092);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'Log_vu_vp')
+data.setCell(4, 2, 'Login.Login')
+data.setCell(4, 3, 3045);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'Log_forget')
+data.setCell(5, 2, 'Login.Login')
+data.setCell(5, 3, 2924);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'Log_ivu_ivp')
+data.setCell(6, 2, 'Login.Login')
+data.setCell(6, 3, 2596);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'Log_vu_ivp')
+data.setCell(7, 2, 'Login.Login')
+data.setCell(7, 3, 2314);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'Log_eu_ep')
+data.setCell(8, 2, 'Login.Login')
+data.setCell(8, 3, 1651);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'Ex_Acount')
+data.setCell(9, 2, 'Reg.Reg')
+data.setCell(9, 3, 722);
+window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 36 seconds</span>
+              <div id="times-div-Suite">
+              </div> <!-- times-div-Suite -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">Reg.Reg</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Create_Acount_NLet_Nnum(public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">12945 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">20179 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">22886 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Create_Acount_NonLet_Nonnum(public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">35548 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">44441 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">49348 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Ex_Acount(public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">63810 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">64533 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">Login.Login</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">68284 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_vu_vp(public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">81248 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">84296 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">87012 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_ivu_vp(public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">107514 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">110610 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">113522 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_vu_ivp(public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">134166 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">136482 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">140415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_ivu_ivp(public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">156155 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">158753 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">161959 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_eu_ep(public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">175464 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">177117 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">179777 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_nonu_nonp(public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">192563 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">196309 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setup(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">198948 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">Log_forget(public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException)</span>
+                <span class="method-start">212184 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tear</span>
+                <span class="method-start">215109 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

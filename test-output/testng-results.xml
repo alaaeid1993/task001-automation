@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="10" passed="10" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-10-10T19:14:34 EET" name="Suite" finished-at="2021-10-10T19:18:12 EET" duration-ms="217867">
+    <groups>
+    </groups>
+    <test started-at="2021-10-10T19:14:34 EET" name="Test" finished-at="2021-10-10T19:18:12 EET" duration-ms="217867">
+      <class name="Reg.Reg">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:14:35 EET" name="setup" finished-at="2021-10-10T19:14:47 EET" duration-ms="12944" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Create_Acount_NLet_Nnum(java.lang.reflect.Method)[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:14:47 EET" name="Create_Acount_NLet_Nnum" finished-at="2021-10-10T19:14:55 EET" duration-ms="7225" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Reg.Reg.Create_Acount_NLet_Nnum(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Acount_NLet_Nnum -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:14:55 EET" name="tear" finished-at="2021-10-10T19:14:57 EET" duration-ms="2702" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:14:57 EET" name="setup" finished-at="2021-10-10T19:15:10 EET" duration-ms="12661" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Create_Acount_NonLet_Nonnum(java.lang.reflect.Method)[pri:1, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:15:10 EET" name="Create_Acount_NonLet_Nonnum" finished-at="2021-10-10T19:15:19 EET" duration-ms="8888" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Reg.Reg.Create_Acount_NonLet_Nonnum(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Create_Acount_NonLet_Nonnum -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:15:19 EET" name="tear" finished-at="2021-10-10T19:15:24 EET" duration-ms="4906" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:15:24 EET" name="setup" finished-at="2021-10-10T19:15:38 EET" duration-ms="14462" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Ex_Acount(java.lang.reflect.Method)[pri:2, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:15:38 EET" name="Ex_Acount" finished-at="2021-10-10T19:15:39 EET" duration-ms="722" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Reg.Reg.Ex_Acount(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Ex_Acount -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Reg.Reg@5609159b]" started-at="2021-10-10T19:15:39 EET" name="tear" finished-at="2021-10-10T19:15:43 EET" duration-ms="3750" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- Reg.Reg -->
+      <class name="Login.Login">
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:15:43 EET" name="setup" finished-at="2021-10-10T19:15:56 EET" duration-ms="12964" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_vu_vp(java.lang.reflect.Method)[pri:3, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:15:56 EET" name="Log_vu_vp" finished-at="2021-10-10T19:15:59 EET" duration-ms="3045" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_vu_vp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_vu_vp -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:15:59 EET" name="tear" finished-at="2021-10-10T19:16:02 EET" duration-ms="2714" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:02 EET" name="setup" finished-at="2021-10-10T19:16:22 EET" duration-ms="20502" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_ivu_vp(java.lang.reflect.Method)[pri:4, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:22 EET" name="Log_ivu_vp" finished-at="2021-10-10T19:16:25 EET" duration-ms="3092" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_ivu_vp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_ivu_vp -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:25 EET" name="tear" finished-at="2021-10-10T19:16:28 EET" duration-ms="2910" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:28 EET" name="setup" finished-at="2021-10-10T19:16:49 EET" duration-ms="20644" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_vu_ivp(java.lang.reflect.Method)[pri:5, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:49 EET" name="Log_vu_ivp" finished-at="2021-10-10T19:16:51 EET" duration-ms="2314" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_vu_ivp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_vu_ivp -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:51 EET" name="tear" finished-at="2021-10-10T19:16:55 EET" duration-ms="3933" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:16:55 EET" name="setup" finished-at="2021-10-10T19:17:11 EET" duration-ms="15740" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_ivu_ivp(java.lang.reflect.Method)[pri:6, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:11 EET" name="Log_ivu_ivp" finished-at="2021-10-10T19:17:13 EET" duration-ms="2596" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_ivu_ivp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_ivu_ivp -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:13 EET" name="tear" finished-at="2021-10-10T19:17:16 EET" duration-ms="3205" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:16 EET" name="setup" finished-at="2021-10-10T19:17:30 EET" duration-ms="13504" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_eu_ep(java.lang.reflect.Method)[pri:7, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:30 EET" name="Log_eu_ep" finished-at="2021-10-10T19:17:32 EET" duration-ms="1651" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_eu_ep(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_eu_ep -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:32 EET" name="tear" finished-at="2021-10-10T19:17:34 EET" duration-ms="2658" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:34 EET" name="setup" finished-at="2021-10-10T19:17:47 EET" duration-ms="12786" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_nonu_nonp(java.lang.reflect.Method)[pri:8, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:47 EET" name="Log_nonu_nonp" finished-at="2021-10-10T19:17:51 EET" duration-ms="3744" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_nonu_nonp(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_nonu_nonp -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:51 EET" name="tear" finished-at="2021-10-10T19:17:53 EET" duration-ms="2637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+        <test-method is-config="true" signature="setup(java.lang.reflect.Method)[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:17:53 EET" name="setup" finished-at="2021-10-10T19:18:07 EET" duration-ms="13235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="Log_forget(java.lang.reflect.Method)[pri:9, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:18:07 EET" name="Log_forget" finished-at="2021-10-10T19:18:10 EET" duration-ms="2924" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void Login.Login.Log_forget(java.lang.reflect.Method) throws java.io.IOException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Log_forget -->
+        <test-method is-config="true" signature="tear()[pri:0, instance:Login.Login@2118cddf]" started-at="2021-10-10T19:18:10 EET" name="tear" finished-at="2021-10-10T19:18:12 EET" duration-ms="2708" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tear -->
+      </class> <!-- Login.Login -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
